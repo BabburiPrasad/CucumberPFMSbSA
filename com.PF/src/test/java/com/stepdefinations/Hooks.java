@@ -1,7 +1,6 @@
 package com.stepdefinations;
 
 import com.utilities.BaseClass;
-
 import io.cucumber.java.Before;
 
 public class Hooks extends BaseClass
@@ -12,6 +11,10 @@ public class Hooks extends BaseClass
 		lauchBrowser();
 	}
 	
+//	@After
+//	public static void closeBrowser()
+//	{
+//		close();
+//	}
 	
-
 }

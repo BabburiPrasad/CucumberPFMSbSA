@@ -46,5 +46,7 @@ public class LoginPageStepDef extends BaseClass
 	    asserttext(login.getMyaccount().getText(), "My Account");
 	    
 	    System.out.println("Logged in Successfully");
+	    
+	    BrowserQuit();
 	}
 }

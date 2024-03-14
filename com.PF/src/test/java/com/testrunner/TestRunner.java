@@ -15,6 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resources/features",
 		glue = "com.stepdefinations",
 		dryRun = false,
+		tags = "@Regression",
 		monochrome = true )
 
 public class TestRunner 

@@ -71,6 +71,15 @@ public class BaseClass
 			e.printStackTrace();
 		}
 	}
+	public static void close()
+	{
+		driver.close();
+	}
+	
+	public static void BrowserQuit()
+	{
+		driver.quit();
+	}
 	
 	public static void asserttext(String actual, String expected)
 	{
